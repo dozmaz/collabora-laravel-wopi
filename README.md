@@ -6,13 +6,13 @@
 
 ## Acerca del paquete
 
-Un ejemplo simple integrando Collabora Online a través iFrame con Laravel. Suponemos que ya tiene instalado e iniciado el servidor web Apache en su máquina, y que el módulo PHP para Apache también se ha instalado y cargado
+Un ejemplo simple integrando Collabora Online a través de iFrame con Laravel. Suponemos que ya tiene instalado e iniciado el servidor web Apache en su máquina, y que el módulo PHP para Apache también se ha instalado y cargado
 
 ## Instrucciones
 
 ### Instalar el servidor de Collabora Online
 
-Seguir las instrucciones de [instalación de Collabora Online](https://sdk.collaboraonline.com/docs/installation/index.html) también se pueden seguir las instrucciones de la página oficial [instalación de Collabora Online](https://sdk.collaboraonline.com/docs/installation/index.html)
+Seguir las instrucciones de [instalación de Collabora Online](https://sdk.collaboraonline.com/docs/installation/index.html), también se pueden seguir las instrucciones de la página oficial [instalación de Collabora Online](https://sdk.collaboraonline.com/docs/installation/index.html)
 
 Después de la instalación debe obtener una URL similar a [http://192.168.10.33:9980](http://192.168.10.33:9980)
 
@@ -21,7 +21,7 @@ Después de la instalación debe obtener una URL similar a [http://192.168.10.33
 
 ``` bash
 # clonar repositorio
-$ git clone https://github.com/coreui/coreui-free-laravel-admin-template.git guidocutipa-wopi-project
+$ git clone https://github.com/dozmaz/collabora-laravel-wopi.git guidocutipa-wopi-project
 
 # ir al directorio clonado
 $ cd guidocutipa-wopi-project
@@ -35,7 +35,7 @@ $ npm install
 
 ### configurar APP_URL
 
-> Si la URL del proyecto se parece a: guidocutipa.blog.bo.com/wopi-project
+> Si la URL del proyecto se parece a: guidocutipa.blog.bo/wopi-project
 Entonces ir a `guidocutipa-wopi-project/.env`
 Y modificar esta línea:
 
@@ -43,12 +43,11 @@ Y modificar esta línea:
 
 Para que se parezca a:
 
-* APP_URL = http://guidocutipa.blog.bo.com/wopi-project
+* APP_URL = http://guidocutipa.blog.bo/wopi-project
 
 ### configurar WOPI_CLIENT_URL
 
-> Si la URL del proyecto se parece a: guidocutipa.blog.bo.com/wopi-project
-Entonces ir a `guidocutipa-wopi-project/.env`
+> Ir a `guidocutipa-wopi-project/.env`
 Y modificar esta línea:
 
 * WOPI_CLIENT_URL =
@@ -70,7 +69,7 @@ Para que se parezca a:
 * WOPI_NO_SSL_VALIDATION = true
 
 
-### Next step
+### Siguiente paso
 
 ``` bash
 # Dentro del directorio de la aplicación
