@@ -217,6 +217,7 @@ def InsertText(a, acargo, via, viacargo,de,decargo,referencia,fecha,tipo,cite,ho
       oSize.Width = 3000
       oSize.Height = 1300
 
+
       from com.sun.star.text.WrapTextMode import THROUGHT
       img = oDoc.createInstance('com.sun.star.text.TextGraphicObject')
       img.GraphicURL = "https://correspondenciapruebas.endesyc.bo/laravel/img/logo_endesyc.png"
